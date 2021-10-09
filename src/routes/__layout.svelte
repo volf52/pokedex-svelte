@@ -3,16 +3,12 @@
 	import '../app.css';
 </script>
 
-<Header />
-
-<main>
+<div class="p-8 max-w-6xl mx-auto" id="container">
+	<Header />
 	<slot />
-</main>
+</div>
 
 <footer />
 
 <style>
-	@tailwind base;
-	@tailwind components;
-	@tailwind utilities;
 </style>
