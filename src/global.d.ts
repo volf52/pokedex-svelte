@@ -19,3 +19,21 @@ export interface PokeLoaded {
 	img: UrlString;
 	id: number;
 }
+
+export interface PokeData {
+	name: string;
+	weight: number;
+	height: number;
+	sprites: {
+		front_default: UrlString;
+		back_default: UrlString;
+	};
+	id: number;
+	types: {
+		slot: string;
+		type: {
+			name: string;
+			url: string;
+		};
+	}[];
+}
