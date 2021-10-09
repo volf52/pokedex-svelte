@@ -5,7 +5,7 @@
 </script>
 
 <a
-	href={`/pokeman/${pokeman.id}`}
+	href={`/pokemon/${pokeman.id}`}
 	class="p-6 bg-gray-100 text-gray-800 text-center rounded-md shadow-sm hover:shadow-md flex flex-col items-center"
 >
 	<h2 class="text-2xl uppercase">{pokeman.id}. {pokeman.name}</h2>
