@@ -4,9 +4,7 @@
 	import type { Load } from '@sveltejs/kit';
 	import type { PokeApiResponse, PokeLoaded } from 'src/global';
 
-	export const load: Load = async ({ page }) => {
-		const id = page.params.id;
-
+	export const load: Load = async ({}) => {
 		const POKEURL = 'https://pokeapi.co/api/v2/pokemon?limit=100';
 
 		const res = await fetch(POKEURL);

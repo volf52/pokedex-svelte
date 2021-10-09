@@ -29,7 +29,5 @@
 		Type: <strong>{type}</strong> | Height: <strong>{data.height}</strong> | Weight:
 		<strong>{data.weight}</strong>
 	</p>
-	<div class="max-w-sm rounded overflow-hidden shadow-lg">
-		<img class="w-full" src={data.sprites.front_default} alt={data.name} />
-	</div>
+	<img class="card-image" src={data.sprites.front_default} alt={data.name} />
 </div>
