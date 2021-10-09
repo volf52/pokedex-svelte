@@ -1,4 +1,4 @@
-import type { PokeApiResponse, PokeLoaded } from './types';
+import type { PokeApiResponse, PokeLoaded } from 'src/global';
 import { writable } from 'svelte/store';
 
 const POKEURL = 'https://pokeapi.co/api/v2/pokemon?limit=100';
