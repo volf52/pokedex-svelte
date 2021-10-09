@@ -30,9 +30,3 @@ body {
 		var(--tertiary-color) 41.35%
 	);
 }
-
-#svelte {
-	min-height: 100vh;
-	display: flex;
-	flex-direction: column;
-}
